@@ -1,0 +1,46 @@
+.btn-blue {
+    background-color: #24A0ED;
+    color: white;
+}
+
+.btn-red {
+    background-color: red;
+    color: white;
+}
+
+.btn {
+    border: none;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 12px; /* Rounded corners */
+    transition: background-color 0.3s, transform 0.3s; /* Smooth transitions */
+}
+
+.btn:hover {
+    background-color: #006DB5; /* Darker green */
+    transform: scale(1.05); /* Slightly enlarge on hover */
+}
+
+.btn:active {
+    transform: scale(0.95); /* Shrink when clicked */
+}
+
+/* Size variations */
+.btn-small {
+    padding: 10px 20px; /* Smaller padding */
+    font-size: 14px; /* Smaller font size */
+}
+
+.btn-medium {
+    padding: 15px 32px; /* Medium padding */
+    font-size: 16px; /* Medium font size */
+}
+
+.btn-large {
+    padding: 20px 40px; /* Larger padding */
+    font-size: 18px; /* Larger font size */
+}
